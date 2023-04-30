@@ -1,1 +1,71 @@
+* {
+  font-family: Arial, Verdana, sans-serif;
+  color: #665544;
+  text-align: center;
+}
 
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #FF00FF;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FnwD1i.jpg&f=1&nofb=1&ipt=508a5b025db730cdc09855298837bc462a050e2a22d18919927ca04f2224fa87&ipo=images");
+}
+
+#content {
+  overflow: auto;
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+}
+
+.column3 {
+  margin-right: 0%;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+#nav, #footer {
+  background-color: #00FFFF;
+  padding: 0.5em 0;
+}
+
+#feature, .article {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #FFD700;
+}
+
+#feature {
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipartcraft.com%2Fimages%2Fdog-clipart-head-1.png&f=1&nofb=1&ipt=77b9516b74d842b6d7451293789005de0968605b899006bb049107bbbb30e4d6&ipo=images");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#logo{
+  font-family: 'GothicaBookOblique';
+  font-weight: normal;
+  font-style: italic;
+  color: white;
+}
+
+.column1{
+  background-color: #7FFF00;
+}
+
+.column2{
+  background-color: #9400D3;
+}
+
+.column3{
+  background-color: #FF1493;
+}
