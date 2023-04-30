@@ -25,10 +25,6 @@ body {
   margin: 1%;
 }
 
-.column3 {
-  margin-right: 0%;
-}
-
 li {
   display: inline;
   padding: 0.5em;
@@ -68,4 +64,5 @@ li {
 
 .column3{
   background-color: #FF1493;
+  margin-right: 0%;
 }
