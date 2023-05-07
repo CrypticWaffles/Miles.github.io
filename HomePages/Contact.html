@@ -4,14 +4,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
 
-    <title>Contact Info</title>
+    <title>Contact</title>
 
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/sharedStyle.css" type="text/css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/gothica" type="text/css"/>
     
   <body>
     <div id="header">
-      <h1>Logo</h1>
+      <h1>Contact</h1>
       <nav>
         <a href="../index.html">Home</a> |
         <a href="About.html">About</a> |
@@ -25,20 +25,19 @@
     </div>
     <div id="content">
       <div id="feature">
-          <p>Feature</p>
+        <form action="ThankYou.html" method="get" name="myContacy">
+          <label for="fullName">Name</label><br>
+          <input type="text" id="fullName" name="fullName" value="John"><br>
+          
+          <label for="Email">E-Mail</label><br>
+          <input type="text" id="Email" name="Email" value="(your E-mail)@(host).com"><br>
+          
+          <label for="comment">Comment</label><br>
+          <input type="text" id="comment" name="comment" value="I think... about..."><br>
+          
+          <input type="submit" value="Submit"><br>         
+        </form>
       </div>
-      <div class="article column1">
-          <p>Column One</p>
-      </div>
-      <div class="article column2">
-          <p>Column Two</p>
-      </div>
-      <div class="article column3">
-          <p>Column Three</p>
-      </div>
-    </div>
-    <div id="footer">
-    <p>&copy; Copyright 2011</p>
     </div>
   </body>
 </html>
