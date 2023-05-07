@@ -1,5 +1,5 @@
 * {
-font-family: 'GothicaBold'; 
+ font-family: 'GothicaBold'; 
 font-weight: bold; 
 font-style: normal; 
 color: black;
@@ -30,10 +30,10 @@ display: inline;
 padding: 0.5em;}
 
 #nav, #footer {
-background-color: #efefef;
+background-color: #009999;
 padding: 0.5em 0;}
 
 #feature, .article {
 height: 10em;
 margin-bottom: 1em;
-background-color: #efefef;}
+background-color: #009999;}
