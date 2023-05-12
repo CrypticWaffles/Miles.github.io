@@ -1,1 +1,59 @@
-
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      
+      <title>Artifact 03 - JS Rhombus</title>
+      
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/gothica" type="text/css"/>
+    </head>    
+    <body>     
+      <div id="vars">
+        <label>What is the width of your Rhombus?</label><br>
+        <input type="text" id="rHeight" value="5" size="5"><br>
+      
+        <label>Choose a color for Even Symbols:</label><br>
+        <select id="even">
+          <option value="#0000FF">Blue</option>
+          <option value="#FF0000">Red</option>
+          <option value="#FF9900">Orange</option>
+          <option value="#8A2BE2">Blue Violet</option>
+          <option value="#8B008B">Dark Magenta</option>
+          <option value="#D3D3D3">Ligh tGray</option>
+        </select><br>
+      
+        <label>And for Odd symbols:</label><br>
+        <select id="odd">
+          <option value="#FF0099">Pink</option>
+          <option value="#33FF00">Green</option>
+          <option value="#660099">Purple</option>
+          <option value="#FF69B4">Hot Pink</option>
+          <option value="#00FFFF">Aqua</option>
+          <option value="#7FFF00">Chartreuse</option>
+        </select><br>
+      
+        <label>Choose a symbol:</label>
+        <select id="symbol">
+          <option value="*">*</option>
+          <option value="$">$</option>
+          <option value="@">@</option>
+          <option value="#">#</option>
+          <option value="%">%</option>
+          <option value="^">^</option>
+        </select><br>
+       
+        <button onclick="createRhombus(document.getElementById('rHeight').value,
+                         document.getElementById('even').value,
+                         document.getElementById('odd').value,
+                         document.getElementById('symbol').value);">>Build Rhombus<</button>
+          </div>
+        <hr>
+          <div id="upleft">Rhombus:</div>
+          <div id="upRight"></div>
+          <div id="downLeft"></div>
+          <div id="downRight"></div>
+          <script src="js.js"></script>      
+  </body>
+</html>
