@@ -1,9 +1,16 @@
 #vars {
-  text-align: center; 
-}
-
-* {
+  text-align: center;
   font-family: 'GothicaBookOblique';
   font-weight: normal;
   font-style: italic;
+}
+
+#upleft{
+  float: left;
+}
+#upRight{
+  display: inline-block;
+}
+#downLeft{
+  float: left;
 }
