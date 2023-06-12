@@ -151,3 +151,7 @@ form .btn2{
   padding: 80px 0;
   color: #ababab;
 }
+
+ul li{
+  list-style: none;
+}
