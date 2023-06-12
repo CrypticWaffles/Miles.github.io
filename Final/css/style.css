@@ -13,11 +13,17 @@ body{
 #header{
   width: 100%;
   height: 100vh;
-  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.wallpapersafari.com%2F74%2F41%2FBI3Vm9.png&f=1&nofb=1&ipt=772b6b8ccda3c0a8fdfd8fd6779edba0604801afb1c007ed6d68e5b5321eb72d&ipo=images');
+  background-image: url('images/background.png');
   background-size: cover;
   background-position: center;
 }
-
+.main{
+  background: #080808;
+  border-radius: 6px;
+}
+h6{
+  color: #ababab;
+}
 .container{
   padding: 10px 10%;
 }
@@ -27,6 +33,8 @@ nav{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  background: #824b86;
+  border-radius: 6px;
 }
 
 .logo{
