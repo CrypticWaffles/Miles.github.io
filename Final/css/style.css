@@ -37,10 +37,6 @@ nav{
   border-radius: 6px;
 }
 
-.logo{
-  width: 140px;
-}
-
 nav ul li{
   display: inline-block;
   list-style: none;
@@ -78,6 +74,12 @@ nav ul li a:hover::after{
 }
 .header-text h1 span{
   color: #824b86;
+}
+h5{
+  color: #824b86;
+}
+h6 span{
+  color: #ffffff;
 }
 
 /* About */
